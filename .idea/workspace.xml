@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a3ee87-b830-4247-a33f-202eeba1e6da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assault/stats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assault/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/assault/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assault/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/assault/http.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,8 @@
       <workItem from="1572143665683" duration="2538000" />
       <workItem from="1572183686262" duration="2511000" />
       <workItem from="1572407494329" duration="35000" />
-      <workItem from="1572407577261" duration="1994000" />
+      <workItem from="1572407577261" duration="2895000" />
+      <workItem from="1572780835840" duration="749000" />
     </task>
     <servers />
   </component>
@@ -88,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
