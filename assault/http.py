@@ -1,12 +1,13 @@
 import asyncio
 import os
 import time
+import requests
 
 
 def fetch(url):
     """ Make request and return result """
     started_at = time.monotonic()
-    response = get(url)
+    response = requests.get(url)
     request_time = time.monotonic() - started_at
     return {"status_code": response.status_code, "request_time": request_time}
 
