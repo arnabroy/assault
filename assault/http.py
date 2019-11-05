@@ -54,3 +54,7 @@ def assault(url, requests, concurrency):
     results = []
     asyncio.run(distribute_work(url, requests, concurrency, results))
     print(results)
+
+""" Sample results """
+''' DEBUG=true assault -r 100 -c 10 https://google.com -> 2.81 sec'''
+''' DEBUG=true assault -r 10000 -c 50 https://google.com -> 186.35 '''

@@ -21,11 +21,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
-  </component>
   <component name="ProjectId" id="1SuJVchIqLtIaz52XkWYCLGPvDQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -105,7 +100,7 @@
       <workItem from="1572183686262" duration="2511000" />
       <workItem from="1572407494329" duration="35000" />
       <workItem from="1572407577261" duration="2895000" />
-      <workItem from="1572780835840" duration="3283000" />
+      <workItem from="1572780835840" duration="4788000" />
     </task>
     <servers />
   </component>
