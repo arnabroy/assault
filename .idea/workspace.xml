@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7a3ee87-b830-4247-a33f-202eeba1e6da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assault/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/assault/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assault/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/assault/stats.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,7 @@
       <workItem from="1572407494329" duration="35000" />
       <workItem from="1572407577261" duration="2895000" />
       <workItem from="1572780835840" duration="4788000" />
-      <workItem from="1572939331241" duration="2542000" />
+      <workItem from="1572939331241" duration="3587000" />
     </task>
     <servers />
   </component>
