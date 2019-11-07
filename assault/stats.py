@@ -1,5 +1,8 @@
 from typing import List, Dict
 from statistics import mean
+"""
+    Run doctests using : python -m doctest assault/stats.py
+"""
 
 
 class Results:
