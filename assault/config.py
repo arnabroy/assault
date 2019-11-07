@@ -1,8 +1,6 @@
 import os
 from functools import lru_cache
-
 from sqlalchemy import create_engine
-
 
 @lru_cache(maxsize=32)
 def engine(db_url=None):

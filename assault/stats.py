@@ -1,4 +1,5 @@
 from typing import List, Dict
+from statistics import mean
 
 
 class Results:
@@ -17,7 +18,7 @@ class Results:
 
     def __init__(self, total_time: float, requests: List[Dict]):
         self.total_time = total_time
-        self.requests = requests
+        self.requests = sorted(requests, key=lambda r: r["request_time"])
 
     def slowest(self) -> float:
         """
@@ -94,3 +95,22 @@ class Results:
         2
         """
         pass
+
+    def average_time(self) -> float:
+        """
+        Returns the slowest request's completion time
+
+        >>> results = Results(10.6, [{
+        ...     'status_code': 200,
+        ...     'request_time': 3.4
+        ... }, {
+        ...     'status_code': 500,
+        ...     'request_time': 6.1
+        ... }, {
+        ...     'status_code': 200,
+        ...     'request_time': 1.04
+        ... }])
+        >>> results.average_time()
+        9.846666667
+        """
+        return mean([r["request_time"] for r in self.requests])
