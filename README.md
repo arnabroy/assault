@@ -1,6 +1,7 @@
 # assault
 
 A simple CLI load testing tool.
+
 Author - Arnab Roy
 
 ## Installation
