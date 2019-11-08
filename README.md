@@ -9,7 +9,7 @@ Author - Arnab Roy
 Install using `pip`:
 
 ```
-$ pip install assault
+$ pip install assault==1.0.0
 ```
 
 ## Usage
