@@ -1,0 +1,6 @@
+include *.81
+include *.json
+include *.lock
+include *.sh
+include *.txt
+include Pipfile

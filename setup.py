@@ -12,13 +12,13 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'arnabspackage'
-DESCRIPTION = 'Arnabs assault tool'
-URL = 'https://github.com/arnabroy/assault'
+NAME = 'assault'
+DESCRIPTION = 'A simple CLI load testing tool.'
+URL = 'https://arnabroy.github.io/assault.github.io/'
 EMAIL = 'arnabroy.007@gmail.com'
 AUTHOR = 'Arnab Roy'
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = '0.1.0'
+VERSION = '1.0.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [

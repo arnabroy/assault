@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/assault.iml" filepath="$PROJECT_DIR$/.idea/assault.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/dbexport/.idea/dbexport.iml" filepath="$PROJECT_DIR$/../PycharmProjects/dbexport/.idea/dbexport.iml" />
     </modules>
   </component>
 </project>
